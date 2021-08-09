@@ -1,0 +1,29 @@
+@import "../../index.scss";
+
+.delete-frame {
+    padding: .5rem .5rem;
+    background: #fff;
+
+    .delete-all {
+        margin-right: 20px;
+    }
+}
+
+.ant-table-thead > tr > th  {
+    background: #fff;
+}
+
+.ant-pagination-item-active {
+    border: none;
+}
+
+.ant-pagination-item-active a {
+    color: #fff !important;
+    background: #608000;
+}
+
+.ant-table-thead > tr > th, 
+    .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, 
+    .ant-table tfoot > tr > td {
+        padding: 0px 16px;
+    }

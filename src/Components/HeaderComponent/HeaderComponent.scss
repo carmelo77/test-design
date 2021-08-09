@@ -1,0 +1,47 @@
+@import "../../index.scss";
+
+.header-component{
+    position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	display: flex;
+	justify-content: space-between;
+	padding: .5rem 1rem;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	width: 100%;
+	z-index: 1050;
+	padding-right:15px;
+	background: #FFF;
+
+    .header-title {
+        margin-top: .3rem;
+    }
+    
+    header h3 {
+        color: #555;
+    }
+    
+    header label span {
+        font-size: 1.7rem;
+        padding-right: 1rem;
+    }
+
+    .user-wrapper {
+        display: flex;
+        align-items: center;
+
+        h5 {
+            margin-bottom: 0rem !important;
+            margin-right: 1rem;
+        }
+    }
+}
+
+.ant-avatar-circle {
+    margin-right: 8px !important;
+
+    span {
+        font-size: .9rem;
+    }
+}

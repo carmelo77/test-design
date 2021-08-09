@@ -1,0 +1,73 @@
+@import "../../index.scss";
+
+.main-component {
+    margin-top: 55px;
+	background: #F1F5F9;
+	min-height: calc(100vh - 55px);
+    
+    .info--text {
+        width: 100%;
+        font-size: 0.77rem;
+        height: 30px;
+        background: $gainsboro;
+
+        div {
+            margin-left: 25px;
+            color: #222;
+            padding: .3rem;
+        }
+    }
+    
+    .breadcrumb {
+        padding: 1rem 2rem;
+        font-size: .9rem;
+    }
+    
+    .main-title {
+        padding: .5rem 2rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #333;
+    }
+    
+    .main-subtitle {
+        padding: .3rem 2rem;
+        font-size: .8rem;
+        color: #333;
+    }
+
+    .search-wrapper {
+        display: flex;
+        background: #fff;
+        border-radius: 50px;
+        height: 40px;
+        padding: .3rem .1rem;
+        margin-left: 25px;
+        margin-top: 30px;
+        width: 50%;
+
+        .circle-search {
+            background: #333;
+            color: #fff;
+            border:none;
+        }
+
+        .search-left {
+            padding: 0rem 1rem;
+            font-size: 1.2rem;
+        }
+
+        input[type=text] {
+            height: 100%;
+            border: none;
+            outline: none;
+            padding: .3rem .3rem;
+            width: 100%;
+        }
+
+    }
+
+    .table {
+        padding: 2rem 2rem;
+    }
+}

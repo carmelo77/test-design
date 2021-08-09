@@ -1,0 +1,50 @@
+@import "../../index.scss";
+
+.sidebar-component {
+    width: 240px;
+	position: fixed;
+	left: 0;
+	top: 52px;
+	height: 100%;
+	background: $main-grey;
+	z-index: 10;
+
+    .sidebar-menu {
+        margin-top: 2rem;
+
+        li {
+            width: 100%;
+            margin-bottom: .7rem;
+            padding-left: 1.5rem;
+        }
+
+        a {
+            padding-left: .5rem;
+            display: block;
+            color: #FFF;
+            font-size: .8rem;
+            width: 85%;
+            border-radius: 10px;
+            background: #A9A9A9;
+            padding-top: .6rem;
+            padding-bottom: .6rem;
+            opacity: 0.9;
+            font-weight: bold;
+
+            svg {
+                margin-left: 8px;
+            }
+
+            span:first-child {
+                font-size: 1,5rem;
+                padding-right: 1.5rem;
+            }
+        }
+    }
+
+    .sidebar-menu a.active {
+        background: $dimgray;
+        opacity: 0.6;
+    }
+    
+}

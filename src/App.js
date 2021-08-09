@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+
+/** Components */
+import SidebarComponent from './Components/SidebarComponent';
+import HeaderComponent from './Components/HeaderComponent';
+import MainComponent from './Components/MainComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SidebarComponent />
+      <div className="main-content">
+        <HeaderComponent />
+        <MainComponent />
+        <footer>
+          <div>
+            <span>
+              Copyright @2021 Clínica San Felipe
+            </span>
+          </div>
+        </footer>
+      </div>
     </div>
   );
 }
